@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ultraman Home</title>
+    <link href="css/css.css" rel="stylesheet" media="screen" type="text/css" />
+
+    <style>
+        body {
+            background: #c0c0c0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 页面整体居中 */
+        .w {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .toubu img {
+            width: 80px;
+            height: auto;
+        }
+
+        .toubu span {
+            font-size: 28px;
+            margin-left: 10px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            padding: 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .box-1 h2 {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 30px;
+            color: #222;
+        }
+
+        .box-d-2 {
+            margin-top: 30px;
+        }
+
+        .box-d-2s h2 {
+            font-size: 28px;
+            text-align: center;
+            margin: 40px 0 20px;
+        }
+
+        ul li {
+            list-style: none;
+            background: rgba(255,255,255,0.7);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        ul li img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        ul li h4 {
+            margin: 15px 0 10px;
+            font-size: 20px;
+        }
+
+        ul li p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .box-d-2 ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .db p {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+<div class="w">
+    <div class="head">
+        <div class="toubu zf">
+            <img src="./images/10.jpg" alt="Ultraman Logo">
+            <span>Ultraman</span>
+        </div>
+
+        <ul>
+            <li><a href="main.html">Main</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <img src="./images/3.jpg">
+    </div>
+</div>
+
+<div class="box w">
+    <div class="box-1">
+        <h2>——— Welcome to Ultraman Universe! ———</h2>
+    </div>
+
+    <!-- Official Store / Link -->
+    <div style="text-align: center; margin: 30px 0;">
+        <a href="https://www.tsuburaya-prod.co.jp/" target="_blank" style="display: inline-block; transition: transform .3s;">
+            <img src="./images/6.jpg" alt="Ultraman Official" style="max-width: 300px; filter: drop-shadow(0 10px 20px rgba(120,120,120,0.5)); cursor: pointer;"
+                 onmouseover="this.style.transform='scale(1.1)'"
+                 onmouseout="this.style.transform='scale(1)'">
+        </a>
+        <p style="margin-top: 15px; color: #333; font-size: 14px;">Click to visit the official Ultraman website</p>
+    </div>
+
+    <div class="box-2">
+        <div class="box-d-2">
+
+            <div class="box-d-2s"><h2>Ultraman Overview</h2></div>
+            <ul>
+                <li>
+                    <img src="./images/7.jpg">
+                    <h4>Origin & Creation</h4>
+                    <p>Ultraman was created by Tsuburaya Productions in 1966. As a silver-and-red giant hero, he protects Earth from monsters and extraterrestrial threats.</p>
+                </li>
+                <li>
+                    <img src="./images/14.jpg">
+                    <h4>Hero Characteristics</h4>
+                    <p>Ultraman possesses super strength, flight capability, powerful beams, and strong justice values. His design symbolizes hope and bravery.</p>
+                </li>
+                <li>
+                    <img src="./images/12.jpg">
+                    <h4>Famous Abilities</h4>
+                    <p>From the iconic "Specium Ray" to energy shields and high-speed movement, Ultraman's abilities continue evolving across different series.</p>
+                </li>
+            </ul>
+
+            <div class="box-d-2s"><h2>Ultraman Universe</h2></div>
+            <ul>
+                <li>
+                    <img src="./images/10.jpg">
+                    <h4>Story Setting</h4>
+                    <p>The Ultraman world spans numerous universes, heroes, and monster species, creating one of Japan’s most iconic tokusatsu franchises.</p>
+                </li>
+                <li>
+                    <img src="./images/12.jpg">
+                    <h4>Allies & Teams</h4>
+                    <p>Different Ultramen often join forces, forming legendary teams such as the New Generation Heroes, Ultra Brothers, and more.</p>
+                </li>
+                <li>
+                    <img src="./images/15.jpg">
+                    <h4>More Information</h4>
+                    <p>The Ultraman series continues expanding through movies, TV shows, comics, and merchandise, beloved by fans worldwide.</p>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="db"><p>Ultraman</p></div>
+    </div>
+</div>
+
+</body>
+</html>
